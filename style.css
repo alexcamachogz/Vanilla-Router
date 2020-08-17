@@ -1,0 +1,87 @@
+body {
+    background-color: #EEE;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+button {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 15px 40px;
+    font-size: 14px;
+    line-height: 1em;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.1s ease-in-out;
+    -webkit-transition: background 0.1s ease-in-out;
+    -moz-transition: background 0.1s ease-in-out;
+    -ms-transition: background 0.1s ease-in-out;
+    -o-transition: background 0.1s ease-in-out;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #f06060;
+    box-shadow: 0px 3px 0px 0px #cd1313;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #ed4444;
+}
+
+button:active {
+    box-shadow: 0px 1px 0px 0px #cd1313;
+}
+
+#About {
+    background-color: #608ef0;
+    box-shadow: 0px 3px 0px 0px #1364cd;
+}
+
+#About:hover {
+    background-color: #449bed;
+}
+
+#About:active {
+    box-shadow: 0px 1px 0px 0px #1364cd;
+}
+
+#Contact {
+    background-color: #78f060;
+    box-shadow: 0px 3px 0px 0px #13cd1c;
+}
+
+#Contact:hover {
+    background-color: #60ed44;
+}
+
+#Contact:active {
+    box-shadow: 0px 1px 0px 0px #13cd23;
+}
+
+#content {
+    max-width: 80%;
+    text-align: center;
+    margin: 40px auto;
+}
