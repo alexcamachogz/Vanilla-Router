@@ -29,7 +29,10 @@ class Router {
      *
      * @return {void}.
      */
-    load(page = "home") {
+    load(page ) {
+        if(page=='index.html'){
+            return
+        }
         const { paths } = this;
         const { path, template } = paths[page] || paths.error;
         const $CONTAINER = document.querySelector("#content");
